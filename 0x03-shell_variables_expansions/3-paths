@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $PATH | echo --lines
+echo $PATH | less -lR | wc -l
