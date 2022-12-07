@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $PATH | less -lR | wc -l
+echo (($PATH | less -lR | wc -l))
